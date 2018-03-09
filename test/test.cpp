@@ -34,7 +34,7 @@ int main() {
   gets(str);
   len = strlen(str);
 
-  printf("%d\n", hashTable['+']);
+  // printf("%d\n", hashTable['+']);
   
   char c2;
   for(int i = 0; i < len; i++) {

@@ -18,6 +18,7 @@ int main() {
     int n, k, c, courseID;
     scanf("%d %d", &n, &k);
     for(int i = 0; i < n; i++) {
+        // 又是个低级错误，除了数组一定要接取址符号
         scanf("%s %d", name[i], &c);
         for(int j = 0; j < c; j++) {
             scanf("%d", &courseID);
